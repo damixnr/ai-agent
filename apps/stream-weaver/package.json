@@ -1,0 +1,20 @@
+{
+  "name": "stream-weaver",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Stream Weaver fashion co-stylist built with the ChatGPT Apps SDK.",
+  "scripts": {
+    "dev": "apps-sdk dev",
+    "build": "apps-sdk build",
+    "lint": "eslint \"src/**/*.{ts,tsx}\""
+  },
+  "dependencies": {
+    "@openai/chatgpt-apps-sdk": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.4.0",
+    "eslint": "^8.57.0"
+  }
+}
